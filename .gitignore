@@ -3,7 +3,7 @@
 .DS_Store
 /uploads
 /node_modules
-yarn-error.log
+npm-debug.log*
 
 .idea
 
@@ -15,12 +15,5 @@ coverage
 medusa-db.sql
 build
 .cache
-
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
 
 .medusa
