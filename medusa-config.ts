@@ -23,7 +23,7 @@ export default defineConfig({
   },
 
   admin: {
-    backendUrl: process.env.MEDUSA_BACKEND_URL || "http://localhost:9000",
+    backendUrl: process.env.MEDUSA_BACKEND_URL || "http//site-studio-v2-production.up.railway.app",
     path: (process.env.ADMIN_PATH || "/app") as `/${string}`,
     // accept either env name; compare case-insensitively
     disable:
