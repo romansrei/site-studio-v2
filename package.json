@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "medusa build",
-    "start": "medusa start -H 0.0.0.0 -p $PORT",
-    "dev": "medusa develop",
+"start": "echo 'Starting Medusa on port:' ${PORT:-9000} && npx medusa start -H 0.0.0.0 -p ${PORT:-9000}",    "dev": "medusa develop",
     "predeploy": "medusa db:migrate",
     "test": "jest"
   },
